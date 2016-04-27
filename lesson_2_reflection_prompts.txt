@@ -1,18 +1,58 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+  A repository is a hidden directory that keeps track of all of the changes that you've made in
+  the course of your work on a particular project.
+
+  .git is a hidden repository (directory)
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  A repository is a hidden directory that keeps track of your changes.  The working directory is
+  where your files are saved.  You could navigate to the working directory via the GUI and double
+  click to open it.  The staging area is a place where you add the files whose changes you want to
+  keep track of.  The files aren't actually moved there, it's just that your indicating that these
+  are the files whose changes you'd like to log/keep track of at that moment.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  You can use the staging area by making sure to check the status of the files here.  Then, examine
+  the files and you should be able to see what you'll be committing.  Of course, try to keep one
+  logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+  It may be useful to create Git branches under the following conditions:
+    1. You have some experimental code that you'd like to try out.
+    2. You're not sure if changes you're pursuing will be worthwhile.
+    3. Adding a new feature or pursing a new "topical" code avenue
+    4. You have a branch in a different language (like in the video example)
+    5. Different people can have their own branches.
+
 How do the diagrams help you visualize the branch structure?
+
+  I understand visuals much better than simple descriptions.  The diagrams allow me to see
+  where things diverge and I don't have to do as much guesswork.  It's like a map - it's
+  easier to get around when you have a map.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+  The result of merging two branches together is that they have combined into one. So
+  any changes you might make to the merged commit will now exist only along the merged branch.
+  Essentially, you've made one branch obsolete.  You can still keep it but it's probably not
+  really necessary.
+
+  It's represented in the video diagrams the way it is b/c we haven't lost those commits.  We
+  want to keep them in the diagram b/c they still exist but do so now only on the "new" merged
+  branch.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+  Con of Git's merging setup: it can be cumbersome and time consuming to have to review all changes
+  and differences between files that are being merged.
+  Pro Git's merge setup: You know exactly what is going on and it requires someone to review the changes
+  and make a call about what the final product of the merge should be.  Git doesn't make that call for you.
+  So you have no one to blame but yourself.  It keeps you connected to your work.
