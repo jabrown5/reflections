@@ -1,12 +1,17 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    A remote repository may be helpful in many ways. First, it allows you to be sure that your files are safe
+    from things like crashes.  Specifically, something could happen to your computer and so your local drive and
+    you might lose everything!  But b/c of GitHub and the remote repository, your code will still be available.
+    Second, a remote repository could allow for easier collaboration with others.  They can just navigate to your
+    remote repository and see, access, and modify your code.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You may not want changes auto update as you may not want code shared just yet.  It may still be in progress
+    so you don't want others to see it just yet.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
