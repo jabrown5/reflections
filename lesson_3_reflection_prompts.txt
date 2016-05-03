@@ -25,14 +25,21 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It's more easily accessible.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    It'd be alot harder to collaborate w/o GitHub.  There'd have to be a system in place that
+    would allow for collaboration - probably something like lots of e-mails informing of updates,
+    track changes in a word document, multiple copies saved, etc.
+
+    It may be harder to use GitHub for some people in that they are not very technically savy and you'd
+    have to do alot of handholding.  You'd also need to have someone in charge of managing the changes.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Using a separate branch allows you to fully study and understand the impact of your changes/edits
+    before you move forward.  If you don't, you may screw up the master more than you need to. Branches are
+    also easier to discard.
